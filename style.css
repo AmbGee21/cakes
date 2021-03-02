@@ -1,0 +1,38 @@
+body {background-color: white;}
+#header {background: #432818;height: 70px; width: 100vw;}
+.first {color: white; padding-top: 15px;padding-left: 70px; font-weight: bold;}
+.firstp {color: white; font-weight: bold; padding: 2px 0px 15px 70px;}
+.second {display: flex; margin: auto; box-sizing: border-box}
+#parent {background-color:#FFF; display: flex; width: 100vw; padding-top: none;height: 100px;}
+#logo {padding: 10px 70px; height: 60px; width: 30%; float: left;display: flex;}
+.active {width: 70%; float: right; display: flex; margin: none; font-size: 17px;}
+.active ul {text-decoration: none;list-style: none; display: flex;}
+.active ul li {justify-content: space-between;margin: 15px;padding: 10px 5px; margin-right: none; text-decoration: none;}
+.active ul li a {text-decoration: none;}
+.active ul li a:hover {color: red;}
+#silder {overflow: hidden;line-height: 80vh; padding: none;;}
+#slider figure {position: relative; width: 500%; margin: 0; left: 0; animation: 20s slider infinite;}
+#slider figure img {float: left; width: 20%;}
+@keyframes slider {0% {left: 0;} 20% {left: 0;} 25% {left: -100%;} 45% {left: -100%;} 50% {left: -200%;} 70% {left: -200%;} 75% {left: -300%;} 95% {left: -300%;} 100% {left: -400%;}}
+.one {height: 80vh;width: 100vw;}
+.two {height: 80vh;width: 100vw;}
+.three {height: 80vh;width: 100vw;}
+.four {height: 80vh;width: 100vw;}
+#shopparent {padding:70px 20px; background-color:#f5f5f5; display: flex; margin: 10px; text-decoration: none; justify-content: space-evenly; padding-top: 15px;}
+#baked {color:red;}
+.fas {color: #3a7d44;}
+#popular {text-align: center; padding-top: 30px; padding-bottom: 30px;}
+#pop {color: #3a7d44; font-weight: bold;}
+#firstbatch {display: flex; justify-content: space-evenly; margin: 15px; padding-bottom: none; margin-right: none; text-decoration: none; line-height: 100px; width: 100vw;}
+.five {width: 20vw; height: 40vh;}
+.six {width: 20vw; height: 40vh;}
+.seven {width: 20vw; height: 40vh;}
+.eight {width: 20vw; height: 40vh;}
+#cakeprices {display: flex; justify-content: space-between; color:#fb6107;padding-left: 80px; padding-right: 70px; padding-top: none; margin-right: none; line-height: 50px;}
+#secondbatch {display: flex; justify-content: space-evenly; margin: 15px; padding-bottom: none; margin-right: none; text-decoration: none;; line-height: 100px; width: 100vw;}
+.ten {width: 20vw; height: 40vh;}
+.eleven {width: 20vw; height: 40vh;}
+.twelve {width: 20vw; height: 40vh;}
+.thirteen {width: 20vw; height: 40vh;}
+#long {display: flex; justify-content: space-between; padding-left: 70px; height: 600px; width: 80vw; margin:auto;}
+#factory {height: 100%;width: 50px; margin: 5px;}
